@@ -111,9 +111,15 @@ main {
     gap: 10px;
 }
 
+a {text-decoration: none;}
+
 .cart-btn img {
     width: 17px;
     height: 17px;
+}
+
+.cart-btn:hover {
+    filter: brightness(60%);
 }
 
 .attribution { 
